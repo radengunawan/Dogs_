@@ -20,5 +20,15 @@ namespace Dogs
         {
             return $"A {this.Breed} named {this.Name}";
         }
+
+        public Dog()
+        {
+            
+        }
+        public Dog(string name, Breeds breed)
+        {
+            this.Name = name;
+            this.Breed = breed;
+        }
     }
 }
